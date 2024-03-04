@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Parisienne&family=Playball&display=swap');
+
+:root{
+--cor-de-fundo:#050033;
+--texto1:#33aff7;
+--texto2:#54bcec;
+--botao-ativo:#0e00a5;
+--botao-inativo: rgba(0, 13, 194, 0.5);
+--texto-fundo:rgba(16, 0, 187, 0.3);
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--texto1);
+    font-family: "Playball", cursive;
+
+}
+
