@@ -54,10 +54,32 @@ display:flex;
     border-radius: 20px 0 0 20px;
 }
 
+
 .botao:last-child{
    border-radius:  0 20px 20px 0;
 }
-.ativo{
+
+
+.botao.ativo{
     background: var(--botao-ativo);
     border-radius: 4px solid #57b7f7;
+}
+
+.aba-conteudo.ativo{
+    display: block;
+}
+
+.aba-conteudo{
+    display: none;
+}
+
+.aba-conteudo-titulo-principal{
+    font-size: 50px;
+    text-align:center;
+}
+
+.aba-conteudo-titulo-secundario{
+font-size: 30px;
+text-align:left;
+color: var(--texto1);
 }
