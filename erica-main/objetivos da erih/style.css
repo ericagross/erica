@@ -6,7 +6,7 @@
 --texto2:#54bcec;
 --botao-ativo:#0049b6;
 --botao-inativo: rgba(0, 13, 194, 0.5);
---texto-fundo:rgba(0, 10, 148, 0.5);
+--texto-fundo:rgba(16, 0, 187, 0.3);
 }
 
 body{
@@ -54,17 +54,32 @@ display:flex;
     border-radius: 20px 0 0 20px;
 }
 
+
 .botao:last-child{
    border-radius:  0 20px 20px 0;
 }
-.ativo{
+
+
+.botao.ativo{
     background: var(--botao-ativo);
-    border-radius: 4px solid #57b7f7;
+    border-bottom: 4px solid #ffffff;
 }
 
-.aba-textos{
-    background-color: var(--texto-fundo);
-    padding: 200px;
-    border-radius: 0 0 50px 50px;
+.aba-conteudo.ativo{
+    display: block;
+}
 
+.aba-conteudo{
+    display: none;
+}
+
+.aba-conteudo-titulo-principal{
+    font-size: 50px;
+    text-align:center;
+}
+
+.aba-conteudo-titulo-secundario{
+font-size: 30px;
+text-align:left;
+color: var(--texto1);
 }
