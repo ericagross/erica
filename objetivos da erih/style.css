@@ -39,7 +39,7 @@ body{
 
 
 .titulo-principal{
-    text-align:left;
+    text-align:center;
     width:100%;
     font-size: 70px;
     margin: 30px;
@@ -79,15 +79,15 @@ display:flex;
 }
 
 .aba-conteudo-titulo-secundario{
-font-size: 30px;
+font-size: 40px;
 text-align:left;
 color: var(--texto1);
 }
 
 .contador{
-    font-size: 95px;
+    font-size: 75px;
     text-align: center;
-    padding: 1em;
-    border-radius: 10px;
+    padding: 50px;
+    border-radius: 90px;
     background-color: #0049b6;
 }
